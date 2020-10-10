@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import SocialMedia from '../assets/SocialMedia'
 import { Fade, Bounce } from 'react-awesome-reveal'
 
 import me from '../assets/imgs/me.jpg'
@@ -12,6 +12,7 @@ const Home = () =>{
         <div>
             <Fade>
                 <Bounce>
+                <SocialMedia />
                   <h1> Taja House</h1>
                   <a href="mailto: 'ahlliahtaja@yahoo.com'">ahlliahtaja@yahoo.com</a>
                   <a href='tel:409-998-4579'>409-998-4579</a>
