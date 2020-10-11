@@ -37,6 +37,7 @@ const Header = () =>{
                     <Clock />
                 {currentDate}
             </div>
+            
                     <Link to="/home">Home</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/about">About Me</Link>
