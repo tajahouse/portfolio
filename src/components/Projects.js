@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from 'infinite-react-carousel'
 import Iframe  from 'react-iframe'
+// import {ParticlesBg} from 'particles-bg'; Figure out why this is bugging out
 
 const Projects = () =>{
     return (
