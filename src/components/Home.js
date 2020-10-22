@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SocialMedia from '../assets/SocialMedia'
 import { Fade, Bounce } from 'react-awesome-reveal'
 
+
 import me from '../assets/imgs/me.jpg'
 
 
@@ -12,15 +13,13 @@ const Home = () =>{
         <div>
             <Fade>
                 <Bounce>
-                <SocialMedia />
+                  <SocialMedia />
                   <h1> Taja House</h1>
-                  <a href="mailto: 'ahlliahtaja@yahoo.com'">ahlliahtaja@yahoo.com</a>
-                  <a href='tel:409-998-4579'>409-998-4579</a>
-
-
+                  <h2>Full Stack Web Developer</h2>
                 </Bounce>
             </Fade>
             <img src={me} alt="Taja" width="300px"></img>
+            {/* <ParticlesBg type='circle'/> */}
         </div>
     )
 }
