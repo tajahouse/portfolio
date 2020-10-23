@@ -1,0 +1,9 @@
+.me{
+    border-radius: 50%;
+    border: 2px double blue;
+}
+
+.home-wrapper{
+    max-height:100%;
+    padding-bottom: 40%
+}
