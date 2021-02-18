@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Fade, Bounce } from 'react-awesome-reveal'
 import './styles/Home.css'
 
 import me from '../assets/imgs/me.jpg';
-import StarfieldAnimation from 'react-starfield-animation'
 
 
 const Home = () =>{
-    const pic = me
     return(
         <div className="home-wrapper">
             {/* <StarfieldAnimation/> */}
@@ -19,6 +17,7 @@ const Home = () =>{
             </Fade>
                 <img src={me} alt="Taja" className="me" width="300px" height="400px"></img>
             {/* <ParticlesBg type='circle'/> */}
+            <p>Welcome to my website! My name is Taja House and I am a full stack web developer. My goals are to be a big contributer to the tech industry learning inovative ways to solving world problems. I am excited to become a part of a company whose goals are just that. Take a look at the navigation bar above to learn more about me and what I can contribute! </p>
         </div>
     )
 }

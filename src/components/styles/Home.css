@@ -7,3 +7,11 @@
     max-height:100%;
     padding-bottom: 40%
 }
+
+h1, h2{
+    color:blue;
+}
+
+p{
+    color: white;
+}
