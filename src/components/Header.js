@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
+
+//Time and Date import
 import moment from 'moment'
 import Clock from 'react-clock'
+
+//styles
 import './styles/Header.css'
 
 const Header = () =>{
@@ -30,7 +34,7 @@ const Header = () =>{
     return (
         <div className="header-wrapper">   
             <div className= "clock-date">
-                    <Clock />
+                {/* <Clock /> */}
                 {currentDate}
             </div>
             <div className='links'>

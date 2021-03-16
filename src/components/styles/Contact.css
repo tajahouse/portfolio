@@ -1,0 +1,24 @@
+.content{
+    padding-top: 10%;
+    background-image: url;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    margin: 1%;
+}
+
+button a{
+    color:rebeccapurple;
+    text-decoration: none
+}
